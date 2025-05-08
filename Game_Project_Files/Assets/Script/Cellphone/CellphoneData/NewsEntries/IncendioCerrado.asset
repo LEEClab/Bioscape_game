@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 903f88758ba9d494aa15d593e4b1f1bd, type: 3}
+  m_Name: IncendioCerrado
+  m_EditorClassIdentifier: 
+  _title:
+    m_TableReference:
+      m_TableCollectionName: GUID:2cdff82d501a7664ebf91164c4ebab75
+    m_TableEntryReference:
+      m_KeyId: 149561090048
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  _icon: {fileID: 0}
+  _contentText:
+    m_TableReference:
+      m_TableCollectionName: GUID:2cdff82d501a7664ebf91164c4ebab75
+    m_TableEntryReference:
+      m_KeyId: 19320005009408
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  _contentImage: {fileID: 0}
+  _unlockAfterMission: 1
+  _id: 01
+  references:
+    version: 2
+    RefIds: []

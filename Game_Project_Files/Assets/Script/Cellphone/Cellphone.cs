@@ -5,9 +5,7 @@ using UnityEngine;
 
 public class Cellphone : MonoBehaviour
 {
-    
-
-    public GameObject _Cell;
+    public GameObject _CellContent;
     public GameObject _ApksChild;
 
     public PlayerController _Player;
@@ -18,7 +16,7 @@ public class Cellphone : MonoBehaviour
     
     void Start()
     {
-        _Cell.SetActive(false);
+        _CellContent.SetActive(false);
         //DontDestroyOnLoad(gameObject);
     }
 
@@ -27,13 +25,13 @@ public class Cellphone : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.K) && _Player._InDialog)
         {
-            if (_Cell.activeSelf)
+            if (_CellContent.activeSelf)
             {
-                _Cell.SetActive(false);
+                HideCell();
             }
             else
             {
-                _Cell.SetActive(true);
+                ShowCell();
             }
         }
 
@@ -45,6 +43,15 @@ public class Cellphone : MonoBehaviour
         {
             child.gameObject.SetActive(false);
         }
+    }
+
+    public void ShowCell()
+    {
+        _CellContent.SetActive(true);
+    }
+    public void HideCell()
+    {
+        _CellContent.SetActive(false);
     }
 
     

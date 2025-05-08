@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Cellphone_ContacstApp_NPCDialogs_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 04cb07f420cae2c4db3a90e3a936d45f, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 11451047936
+    m_Localized: Hello! Do you like animals?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 152815869952
+    m_Localized: Yes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 254687125504
+    m_Localized: No
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156115128623104
+    m_Localized: That's great, we already have something in common, then! Would you
+      be interested in helping me catalog wild animals, then?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156731825528832
+    m_Localized: Sure!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157311906160640
+    m_Localized: I think I'll pass, thanks.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157442835554304
+    m_Localized: That's a shame...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157594451255296
+    m_Localized: Go back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1783692897361920
+    m_Localized: Are you a bison?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1783863551008768
+    m_Localized: Yes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1783940952694784
+    m_Localized: No...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1783994543316992
+    m_Localized: Sure...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1784107177156608
+    m_Localized: Go back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1784187862982656
+    m_Localized: Are you a chicken, then?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1784348156698624
+    m_Localized: Yes!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1784401252392960
+    m_Localized: No...?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1784480617013248
+    m_Localized: What are you?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1784754366652416
+    m_Localized: I'm a fox
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1784767884894208
+    m_Localized: I'm a human
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

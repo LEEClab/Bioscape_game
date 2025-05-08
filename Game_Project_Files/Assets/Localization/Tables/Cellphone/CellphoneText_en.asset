@@ -20,9 +20,7 @@ MonoBehaviour:
     - rid: 4914958096470900742
   m_TableData:
   - m_Id: 149561090048
-    m_Localized: 'Recipe:
-
-      Lily flower tea'
+    m_Localized: 'Recipe: Lily flower tea'
     m_Metadata:
       m_Items: []
   - m_Id: 19320005009408
@@ -40,9 +38,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 46049511677952
-    m_Localized: 'News:
-
-      Wildfire spreads in the Cerrado'
+    m_Localized: 'News: Wildfire spreads in the Cerrado'
     m_Metadata:
       m_Items: []
   - m_Id: 46065743634432

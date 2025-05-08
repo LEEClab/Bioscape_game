@@ -85,6 +85,24 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-en
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3ab096d45da45af41954e5e556e1950f
+    m_Address: Cellphone_ContacstApp_NPCDialogs_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 17daea47dce94e94994bc61487d5fbb9
+    m_Address: PhotoEntries_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 461f86852f4a60e45946ce43d5ef11de
+    m_Address: Tasks_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: cc20eab5d2c146242bdb26be2ab36237, type: 2}
   m_SchemaSet:

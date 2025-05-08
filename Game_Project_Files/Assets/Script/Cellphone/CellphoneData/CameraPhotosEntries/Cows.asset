@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e14611302bb9bf447aed2b98a731cf34, type: 3}
+  m_Name: Cows
+  m_EditorClassIdentifier: 
+  _photoId: 01
+  _photoName:
+    m_TableReference:
+      m_TableCollectionName: GUID:7afcaaf5f63db5c4da82ac0b4ad66dee
+    m_TableEntryReference:
+      m_KeyId: 8263376896
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  _photoSpriteImage: {fileID: 21300000, guid: e76a32651b06c1d4daf7d8f626f16322, type: 3}
+  _photoCaption:
+    m_TableReference:
+      m_TableCollectionName: GUID:7afcaaf5f63db5c4da82ac0b4ad66dee
+    m_TableEntryReference:
+      m_KeyId: 83354001408
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  references:
+    version: 2
+    RefIds: []
