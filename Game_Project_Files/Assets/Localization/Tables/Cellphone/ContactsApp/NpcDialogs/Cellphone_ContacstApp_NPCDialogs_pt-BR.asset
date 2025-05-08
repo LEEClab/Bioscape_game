@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Cellphone_ContacstApp_NPCDialogs_pt-BR
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: pt-BR
+  m_SharedData: {fileID: 11400000, guid: 04cb07f420cae2c4db3a90e3a936d45f, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 11451047936
+    m_Localized: "Ol\xE1! Voc\xEA gosta de animais?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 152815869952
+    m_Localized: Sim
+    m_Metadata:
+      m_Items: []
+  - m_Id: 254687125504
+    m_Localized: "N\xE3o"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156115128623104
+    m_Localized: "Que bom, j\xE1 temos algo em comum, ent\xE3o! Ser\xE1 que voc\xEA
+      gostaria de me ajudar a catalogar animais selvagens?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156731825528832
+    m_Localized: Claro!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157311906160640
+    m_Localized: "N\xE3o dessa vez, obrigado."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157442835554304
+    m_Localized: Ah que pena...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157594451255296
+    m_Localized: Voltar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1783692897361920
+    m_Localized: "Voc\xEA \xE9 um boi?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1783863551008768
+    m_Localized: Sim
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1783940952694784
+    m_Localized: "N\xE3o..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1783994543316992
+    m_Localized: Sei...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1784107177156608
+    m_Localized: Voltar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1784187862982656
+    m_Localized: "Voc\xEA \xE9 uma galinha, ent\xE3o?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1784348156698624
+    m_Localized: Sim!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1784401252392960
+    m_Localized: "N\xE3o...?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1784480617013248
+    m_Localized: "O que voc\xEA \xE9?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1784754366652416
+    m_Localized: Sou um gato
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1784767884894208
+    m_Localized: Sou um humano
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -72,6 +72,23 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 04cb07f420cae2c4db3a90e3a936d45f
+    m_Address: Assets/Localization/Tables/Cellphone/ContactsApp/NpcDialogs/New Table
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7afcaaf5f63db5c4da82ac0b4ad66dee
+    m_Address: Assets/Localization/Tables/Cellphone/CameraApp_Photos/PhotoEntries
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3ad6ba5e9bd5543438539b248affd07e
+    m_Address: Assets/Localization/Tables/Cellphone/NotesApp/Tasks/Tasks Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: cc20eab5d2c146242bdb26be2ab36237, type: 2}
   m_SchemaSet:

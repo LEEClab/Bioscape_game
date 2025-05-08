@@ -14,6 +14,7 @@ using UnityEngine.ResourceManagement.AsyncOperations;
 
 public class DialogBox : MonoBehaviour
 {
+
     private List<string> _Phrases = new List<string>();
     public static DialogBox dialogbox;
     private string _Phrase;
@@ -134,7 +135,5 @@ public class DialogBox : MonoBehaviour
         }
 
     }
-
-   
 
 }

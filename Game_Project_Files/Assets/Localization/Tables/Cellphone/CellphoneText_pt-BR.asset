@@ -20,7 +20,7 @@ MonoBehaviour:
     - rid: 4914958096470900743
   m_TableData:
   - m_Id: 149561090048
-    m_Localized: "Receita:\nCh\xE1 de l\xEDrio"
+    m_Localized: "Receita: Ch\xE1 de l\xEDrio"
     m_Metadata:
       m_Items: []
   - m_Id: 19320005009408
@@ -29,7 +29,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 46049511677952
-    m_Localized: "Not\xEDcia:\nInc\xEAndios no Cerrado"
+    m_Localized: "Not\xEDcia: Inc\xEAndios no Cerrado"
     m_Metadata:
       m_Items: []
   - m_Id: 46065743634432
