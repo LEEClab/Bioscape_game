@@ -56,6 +56,7 @@ public class Cellphone_CameraAppSystem : MonoBehaviour
 
     private IEnumerator TakePhotoRoutine()
     {
+        StopCoroutine("TakePhotoRoutine");
         _flashImage.gameObject.SetActive(true);
         float t = 1f;
         while (t > 0f)

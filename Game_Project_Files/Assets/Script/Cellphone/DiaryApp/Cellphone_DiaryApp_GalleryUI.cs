@@ -15,9 +15,16 @@ public class Cellphone_DiaryApp_GalleryUI : MonoBehaviour
     public void UpdateGalleryUI(Cellphone_CameraApp_PhotoEntry photoEntry)
     {
         if(GameProgress.Instance.HasCaptured(photoEntry._photoId)){ // Check if the photo has been unlocked
-            _pageTitle.text = photoEntry._photoName.GetLocalizedString();
-            _pageDescription.text = photoEntry._photoCaption.GetLocalizedString();
+            photoEntry._photoName.StringChanged -= OnTitleChanged;
+            photoEntry._photoCaption.StringChanged -= OnCaptionChanged;
+
+            photoEntry._photoName.StringChanged += OnTitleChanged;
+            photoEntry._photoCaption.StringChanged += OnCaptionChanged;
+
             _pageImage.sprite = photoEntry._photoSpriteImage;
+
+            photoEntry._photoName.RefreshString();
+            photoEntry._photoCaption.RefreshString();
             return;
         }
         _pageTitle.text = "???";
@@ -25,4 +32,6 @@ public class Cellphone_DiaryApp_GalleryUI : MonoBehaviour
         _pageImage.sprite = _placeholderSprite; // Set to placeholder sprite
     
     }
+    private void OnTitleChanged(string newText) => _pageTitle.text = newText;
+    private void OnCaptionChanged(string newText) => _pageDescription.text = newText;
 }

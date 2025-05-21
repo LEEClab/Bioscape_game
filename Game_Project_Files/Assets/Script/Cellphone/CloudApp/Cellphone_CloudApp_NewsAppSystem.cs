@@ -20,7 +20,7 @@ public class Cellphone_CloudApp_NewsAppSystem : MonoBehaviour
     [SerializeField] private Image _reportImage;
     [SerializeField] private Button _closeReportButton;
 
-    private int _currentMissionIndex => GameProgress.Instance.CurrentMissionIndex;
+    private int _currentMissionIndex => GameProgress.Instance.CurrentNewsIndex;
     private Cellphone_CloudApp_NewsReport _currentReport;
 
     private void Update()
@@ -29,7 +29,7 @@ public class Cellphone_CloudApp_NewsAppSystem : MonoBehaviour
         {
             GameProgress.Instance.IncrementMission();
             RefreshList();
-            Debug.Log("Mission Index: " + GameProgress.Instance.CurrentMissionIndex);
+            Debug.Log("Mission Index: " + GameProgress.Instance.CurrentNewsIndex);
         }
     }
 

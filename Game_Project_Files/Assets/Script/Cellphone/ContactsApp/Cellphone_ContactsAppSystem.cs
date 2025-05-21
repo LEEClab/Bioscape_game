@@ -24,7 +24,7 @@ public class Cellphone_ContactsAppSystem : MonoBehaviour
     private Contacts_DialogChoiceManager _dialogChoiceManager;
     public GameObject _dialogUI;
 
-    private int currentMissionIndex => GameProgress.Instance.CurrentMissionIndex;
+    private int currentMissionIndex => GameProgress.Instance.CurrentNewsIndex;
     private Cellphone_ContactsApp_Contact _currentContact;
 
     private void Awake()
@@ -123,7 +123,6 @@ public class Cellphone_ContactsAppSystem : MonoBehaviour
             Debug.LogWarning($"Contact {contact._contactName} has no dialog assigned");
             return;
         }
-        
         _dialogUI.SetActive(true);
         _dialogChoiceManager.BeginConversation(contact._startingDialogNode);
         

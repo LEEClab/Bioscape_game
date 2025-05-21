@@ -12,8 +12,8 @@ public class Contacts_DialogChoiceManager : MonoBehaviour
 {
     [SerializeField] private Button _buttonA, _buttonB; // Buttons for choices
     [SerializeField] private TextMeshProUGUI _npcDialogText, _textA, _textB; // Text fields for dialog and choices
-
     [SerializeField] AudioSource _characterVoice;
+    [SerializeField] private Button _closeAppButton;
 
     // private Contacts_DialogChoiceNode _currentNode;
 
@@ -25,7 +25,8 @@ public class Contacts_DialogChoiceManager : MonoBehaviour
 
     public void BeginConversation(Contacts_DialogChoiceNode node)
     {
- 
+        
+        _closeAppButton.gameObject.SetActive(false);
         PlayerController.playercontroller.SetCanMove(false); // Set player state to in dialog
         StartCoroutine(RunConversation(node));
         
@@ -144,7 +145,7 @@ public class Contacts_DialogChoiceManager : MonoBehaviour
             _npcDialogText.text = full.Substring(0, i + 1);
             _characterVoice.Play();
 
-            // Wait a tiny bit—but break early if they skip
+            // Every frame, detect if they skip
             float t = 0f;
             while (t < 0.08f)
             {
@@ -168,6 +169,7 @@ public class Contacts_DialogChoiceManager : MonoBehaviour
     {
         Debug.Log("Dialog ended.");
         HideChoices();
+        _closeAppButton.gameObject.SetActive(true);
         gameObject.SetActive(false);
         PlayerController.playercontroller.SetCanMove(true); // Set player state back to normal
         // _currentNode = null;

@@ -5,11 +5,11 @@ public class GameProgress : MonoBehaviour
 {
     public static GameProgress Instance { get; private set; }
 
-    private const string MissionKey    = "CurrentMissionIndex";
-    private const string DialogsKey    = "TriggeredDialogs"; //comma-separated list for all triggered dialogs
+    private const string NewsKey  = "CurrentNewsIndex";
+    private const string DialogsKey  = "TriggeredDialogs"; //comma-separated list for all triggered dialogs
     private const string PhotosKey = "CapturedPhotos";
 
-    public int CurrentMissionIndex { get; private set; } = 0;
+    public int CurrentNewsIndex { get; private set; } = 0;
 
     // Tracks which dialog IDs have fired
     private HashSet<string> _triggeredDialogs = new HashSet<string>();
@@ -36,14 +36,14 @@ public class GameProgress : MonoBehaviour
     }
     public void IncrementMission()
     {
-        CurrentMissionIndex++;
+        CurrentNewsIndex++;
         SaveProgress();
     }
 
     // Call this when you complete a mission
-    public void SetMission(int missionIndex)
+    public void SetMission(int newsIndex)
     {
-        CurrentMissionIndex = missionIndex;
+        CurrentNewsIndex = newsIndex;
         SaveProgress();
     }
 
@@ -64,7 +64,7 @@ public class GameProgress : MonoBehaviour
 
     private void SaveProgress()
     {
-        PlayerPrefs.SetInt(MissionKey, CurrentMissionIndex);
+        PlayerPrefs.SetInt(NewsKey, CurrentNewsIndex);
 
         // Join our HashSet into a single string, e.g. "intro,meetBob,finale"
         var joinedDialogs = string.Join(",", _triggeredDialogs);
@@ -83,7 +83,7 @@ public class GameProgress : MonoBehaviour
 
     private void LoadProgress()
     {
-        CurrentMissionIndex = PlayerPrefs.GetInt(MissionKey, 0);
+        CurrentNewsIndex = PlayerPrefs.GetInt(NewsKey, 0);
 
         var savedDialogs = PlayerPrefs.GetString(DialogsKey, "");
         if (!string.IsNullOrEmpty(savedDialogs))

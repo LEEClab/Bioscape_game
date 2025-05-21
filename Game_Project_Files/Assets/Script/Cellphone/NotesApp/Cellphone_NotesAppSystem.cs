@@ -73,7 +73,7 @@ public class Cellphone_NotesAppSystem : MonoBehaviour
             var go = Instantiate(_taskEntryPrefab, _taskListContent);
             var taskUI = go.GetComponent<Cellphone_NotesApp_TaskEntryUI>();
             bool done = GameProgress.Instance.HasCompletedTask(task._taskId);
-            taskUI.Initialize(i, task._taskDescription.GetLocalizedString(), done);
+            taskUI.Initialize(i, task._taskDescription, done);
         }
     }
 

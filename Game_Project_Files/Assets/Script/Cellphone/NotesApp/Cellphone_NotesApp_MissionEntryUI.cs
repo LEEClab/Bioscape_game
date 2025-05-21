@@ -16,9 +16,12 @@ public class Cellphone_NotesApp_MissionEntryUI : MonoBehaviour
     {
         page = p;
         onClick = callback;
-        _missionName.text = string.Concat(_wordMission.GetLocalizedString(), p._missionIndex);
+        _wordMission.StringChanged -= OnLanguageChanged;
+        _wordMission.StringChanged += OnLanguageChanged;
+        _wordMission.RefreshString();
+
         GetComponent<Button>().onClick.AddListener(() => onClick(page));
     }
 
-  
+    private void OnLanguageChanged(string newText) => _missionName.text = newText + " " + page._missionIndex;
 }
