@@ -947,7 +947,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &430807737
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1461,7 +1461,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &706676990
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2001,117 +2001,117 @@ MonoBehaviour:
   _Texts: 
   localizedStringDef:
     m_TableReference:
-      m_TableCollectionName: 
+      m_TableCollectionName: GUID:32d5da7f158a1d7439d01243c44094e2
     m_TableEntryReference:
-      m_KeyId: 0
+      m_KeyId: 16061231104
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
     m_LocalVariables: []
   localizedStringBath:
     m_TableReference:
-      m_TableCollectionName: 
+      m_TableCollectionName: GUID:32d5da7f158a1d7439d01243c44094e2
     m_TableEntryReference:
-      m_KeyId: 0
+      m_KeyId: 12427308756992
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
     m_LocalVariables: []
   localizedStringKitchen:
     m_TableReference:
-      m_TableCollectionName: 
+      m_TableCollectionName: GUID:32d5da7f158a1d7439d01243c44094e2
     m_TableEntryReference:
-      m_KeyId: 0
+      m_KeyId: 17304600637440
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
     m_LocalVariables: []
   localizedStringGarden:
     m_TableReference:
-      m_TableCollectionName: 
+      m_TableCollectionName: GUID:32d5da7f158a1d7439d01243c44094e2
     m_TableEntryReference:
-      m_KeyId: 0
+      m_KeyId: 17906856554496
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
     m_LocalVariables: []
   localizedStringFt:
     m_TableReference:
-      m_TableCollectionName: 
+      m_TableCollectionName: GUID:c8f1547cc486b4240b2db38ecfd74236
     m_TableEntryReference:
-      m_KeyId: 0
+      m_KeyId: 7416770560
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
     m_LocalVariables: []
   localizedStringSt:
     m_TableReference:
-      m_TableCollectionName: 
+      m_TableCollectionName: GUID:c8f1547cc486b4240b2db38ecfd74236
     m_TableEntryReference:
-      m_KeyId: 0
+      m_KeyId: 324996886528
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
     m_LocalVariables: []
   localizedStringTt:
     m_TableReference:
-      m_TableCollectionName: 
+      m_TableCollectionName: GUID:c8f1547cc486b4240b2db38ecfd74236
     m_TableEntryReference:
-      m_KeyId: 0
+      m_KeyId: 681625972736
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
     m_LocalVariables: []
   localizedStringQt:
     m_TableReference:
-      m_TableCollectionName: 
+      m_TableCollectionName: GUID:c8f1547cc486b4240b2db38ecfd74236
     m_TableEntryReference:
-      m_KeyId: 0
+      m_KeyId: 987340402688
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
     m_LocalVariables: []
   localizedStringJt:
     m_TableReference:
-      m_TableCollectionName: 
+      m_TableCollectionName: GUID:c8f1547cc486b4240b2db38ecfd74236
     m_TableEntryReference:
-      m_KeyId: 0
+      m_KeyId: 1416518365184
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
     m_LocalVariables: []
   localizedStringFt2:
     m_TableReference:
-      m_TableCollectionName: 
+      m_TableCollectionName: GUID:562725d71d7fd154bb9176670493305b
     m_TableEntryReference:
-      m_KeyId: 0
+      m_KeyId: 8725393408
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
     m_LocalVariables: []
   localizedStringSt2:
     m_TableReference:
-      m_TableCollectionName: 
+      m_TableCollectionName: GUID:562725d71d7fd154bb9176670493305b
     m_TableEntryReference:
-      m_KeyId: 0
+      m_KeyId: 300581842944
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
     m_LocalVariables: []
   localizedStringTt2:
     m_TableReference:
-      m_TableCollectionName: 
+      m_TableCollectionName: GUID:562725d71d7fd154bb9176670493305b
     m_TableEntryReference:
-      m_KeyId: 0
+      m_KeyId: 826237186048
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
     m_LocalVariables: []
   localizedStringQt2:
     m_TableReference:
-      m_TableCollectionName: 
+      m_TableCollectionName: GUID:562725d71d7fd154bb9176670493305b
     m_TableEntryReference:
-      m_KeyId: 0
+      m_KeyId: 6760850190336
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
@@ -2167,7 +2167,8 @@ Transform:
   m_LocalPosition: {x: 959.7355, y: 540, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1819210413}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &803970487
@@ -2773,7 +2774,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1334095683
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3697,6 +3698,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1726981288}
   m_CullTransparentMesh: 1
+--- !u!1 &1819210412
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1819210413}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1819210413
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1819210412}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 794873411}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1859462875
 GameObject:
   m_ObjectHideFlags: 0
@@ -4022,7 +4054,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2130995944
 RectTransform:
   m_ObjectHideFlags: 0
