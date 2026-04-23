@@ -15,7 +15,6 @@ public class PlantioMiniGame : MonoBehaviour
     public Image iconMuda;
     public Image iconA;
     public Image iconD;
-
     private int etapaAtual = 0;
     private bool ativo = false;
 
@@ -144,6 +143,7 @@ public class PlantioMiniGame : MonoBehaviour
 
         ativo = false;
         OnSucesso?.Invoke();
+
     }
 
     void Falhar()
