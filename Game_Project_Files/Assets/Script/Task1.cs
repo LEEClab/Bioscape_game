@@ -9,6 +9,7 @@ public class Task1 : MonoBehaviour, IDataPersistence
     public int Choice3;
     public static string Result = "Red";
     public static bool _I;
+    public bool _B = true;
     GameObject[] Yellow;
     GameObject[] Red;
     GameObject[] Green;
@@ -24,19 +25,32 @@ public class Task1 : MonoBehaviour, IDataPersistence
         Choices();
         if (Result.Equals("Green"))
         {
-            Debug.Log("Green");
+            if (_B)
+            {
+                _B = false;
+                Debug.Log("Green");
+                TutorialMission.TextCurrentOrder = 1;
+            }
+
             _I = true;
             DataPersistenceManager.instance.Task1Result = _I;
             DataPersistenceManager.instance.MissionCompleted = 2;
-            TutorialMission.TextCurrentOrder = 1;
+
+
+
         }
         if (Result.Equals("Yellow"))
         {
-            Debug.Log("Yellow");
+            if (_B)
+            {
+                _B = false;
+                Debug.Log("Yellow");
+                TutorialMission.TextCurrentOrder = 1;
+            }
             _I = true;
             DataPersistenceManager.instance.Task1Result = _I;
             DataPersistenceManager.instance.MissionCompleted = 2;
-            TutorialMission.TextCurrentOrder = 1;
+
         }
         if (Result.Equals("Red"))
         {

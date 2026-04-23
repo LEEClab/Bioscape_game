@@ -9365,27 +9365,27 @@ PrefabInstance:
     - target: {fileID: 2245479823050299591, guid: 12df232b9c0c2854eb2d2ad9a1878571, type: 3}
       propertyPath: _btn1
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 957507715}
     - target: {fileID: 2245479823050299591, guid: 12df232b9c0c2854eb2d2ad9a1878571, type: 3}
       propertyPath: _btn2
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1708746395}
     - target: {fileID: 2245479823050299591, guid: 12df232b9c0c2854eb2d2ad9a1878571, type: 3}
       propertyPath: _btn3
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1231731592}
     - target: {fileID: 2245479823050299591, guid: 12df232b9c0c2854eb2d2ad9a1878571, type: 3}
       propertyPath: _Option1
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 957507715}
     - target: {fileID: 2245479823050299591, guid: 12df232b9c0c2854eb2d2ad9a1878571, type: 3}
       propertyPath: _Option2
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1708746395}
     - target: {fileID: 2245479823050299591, guid: 12df232b9c0c2854eb2d2ad9a1878571, type: 3}
       propertyPath: _Option3
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1231731592}
     - target: {fileID: 2581107793968858889, guid: 12df232b9c0c2854eb2d2ad9a1878571, type: 3}
       propertyPath: m_LocalPosition.x
       value: 32.70642
