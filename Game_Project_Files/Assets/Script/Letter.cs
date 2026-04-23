@@ -9,6 +9,7 @@ public class Carta : MonoBehaviour, IDataPersistence
     public Image CartaAberta;
     public GameObject Panel;
     public Image Papel;
+    public Text Instrucao;
 
     [Header("Audio")]
     public AudioSource _openLetter;
@@ -70,6 +71,10 @@ public class Carta : MonoBehaviour, IDataPersistence
         // Close UI panels
         Papel.gameObject.SetActive(false);
         Panel.SetActive(false);
+
+         Instrucao.gameObject.SetActive(true);
+            yield return new WaitForSeconds(4f);
+                Instrucao.gameObject.SetActive(false);
 
         // Allow player to move again
         player.ResumeMovement();
