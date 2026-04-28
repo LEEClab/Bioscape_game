@@ -79,6 +79,7 @@ public class Carta : MonoBehaviour, IDataPersistence
         // Allow player to move again
         player.ResumeMovement();
 
+        //
         // Mark this letter as collected
         collectedLetters.Add(LetterID);
 
