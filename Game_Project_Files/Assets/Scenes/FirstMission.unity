@@ -1068,6 +1068,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pecuarista
       objectReference: {fileID: 0}
+    - target: {fileID: 7125634583865723073, guid: b257397d17981fe449cab6463ff8c9af, type: 3}
+      propertyPath: m_Size.x
+      value: 0.94402516
+      objectReference: {fileID: 0}
+    - target: {fileID: 7125634583865723073, guid: b257397d17981fe449cab6463ff8c9af, type: 3}
+      propertyPath: m_Size.y
+      value: 0.6209955
+      objectReference: {fileID: 0}
+    - target: {fileID: 7125634583865723073, guid: b257397d17981fe449cab6463ff8c9af, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.0036702752
+      objectReference: {fileID: 0}
+    - target: {fileID: 7125634583865723073, guid: b257397d17981fe449cab6463ff8c9af, type: 3}
+      propertyPath: m_Offset.y
+      value: -2.107882
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -1928,6 +1944,26 @@ PrefabInstance:
     - target: {fileID: 1661509128655220965, guid: 769f46155c54de9488e72a3e3be08987, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1930504117797840560, guid: 769f46155c54de9488e72a3e3be08987, type: 3}
+      propertyPath: m_Size.y
+      value: 0.5866878
+      objectReference: {fileID: 0}
+    - target: {fileID: 1930504117797840560, guid: 769f46155c54de9488e72a3e3be08987, type: 3}
+      propertyPath: m_Offset.y
+      value: -1.7529942
+      objectReference: {fileID: 0}
+    - target: {fileID: 4180035241321240026, guid: 769f46155c54de9488e72a3e3be08987, type: 3}
+      propertyPath: m_Size.y
+      value: 4.1033444
+      objectReference: {fileID: 0}
+    - target: {fileID: 4180035241321240026, guid: 769f46155c54de9488e72a3e3be08987, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.00019669533
+      objectReference: {fileID: 0}
+    - target: {fileID: 4180035241321240026, guid: 769f46155c54de9488e72a3e3be08987, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9533,6 +9569,22 @@ PrefabInstance:
     - target: {fileID: 8379318164551860411, guid: 12df232b9c0c2854eb2d2ad9a1878571, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -38
+      objectReference: {fileID: 0}
+    - target: {fileID: 8505905313373512663, guid: 12df232b9c0c2854eb2d2ad9a1878571, type: 3}
+      propertyPath: m_Size.x
+      value: 0.91514814
+      objectReference: {fileID: 0}
+    - target: {fileID: 8505905313373512663, guid: 12df232b9c0c2854eb2d2ad9a1878571, type: 3}
+      propertyPath: m_Size.y
+      value: 0.41099167
+      objectReference: {fileID: 0}
+    - target: {fileID: 8505905313373512663, guid: 12df232b9c0c2854eb2d2ad9a1878571, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.00602144
+      objectReference: {fileID: 0}
+    - target: {fileID: 8505905313373512663, guid: 12df232b9c0c2854eb2d2ad9a1878571, type: 3}
+      propertyPath: m_Offset.y
+      value: -1.9661736
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
