@@ -685,25 +685,45 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1930504117797840560, guid: 769f46155c54de9488e72a3e3be08987, type: 3}
+      propertyPath: m_Size.y
+      value: 0.4205922
+      objectReference: {fileID: 0}
+    - target: {fileID: 1930504117797840560, guid: 769f46155c54de9488e72a3e3be08987, type: 3}
+      propertyPath: m_Offset.y
+      value: -1.8360419
+      objectReference: {fileID: 0}
+    - target: {fileID: 4180035241321240026, guid: 769f46155c54de9488e72a3e3be08987, type: 3}
+      propertyPath: m_Size.y
+      value: 4.0989923
+      objectReference: {fileID: 0}
+    - target: {fileID: 4180035241321240026, guid: 769f46155c54de9488e72a3e3be08987, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.007609844
+      objectReference: {fileID: 0}
+    - target: {fileID: 4180035241321240026, guid: 769f46155c54de9488e72a3e3be08987, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5210146800459329053, guid: 769f46155c54de9488e72a3e3be08987, type: 3}
       propertyPath: m_Size.x
-      value: 1.1444888
+      value: 1.8278747
       objectReference: {fileID: 0}
     - target: {fileID: 5210146800459329053, guid: 769f46155c54de9488e72a3e3be08987, type: 3}
       propertyPath: m_Size.y
-      value: 0.2598623
+      value: 4.1434946
       objectReference: {fileID: 0}
     - target: {fileID: 5210146800459329053, guid: 769f46155c54de9488e72a3e3be08987, type: 3}
       propertyPath: m_Offset.x
-      value: 0.12201691
+      value: 0.08034706
       objectReference: {fileID: 0}
     - target: {fileID: 5210146800459329053, guid: 769f46155c54de9488e72a3e3be08987, type: 3}
       propertyPath: m_Offset.y
-      value: -1.9296863
+      value: 0.012129784
       objectReference: {fileID: 0}
     - target: {fileID: 5210146800459329053, guid: 769f46155c54de9488e72a3e3be08987, type: 3}
       propertyPath: m_IsTrigger
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5289667767533864979, guid: 769f46155c54de9488e72a3e3be08987, type: 3}
       propertyPath: m_CollisionDetection
