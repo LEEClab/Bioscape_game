@@ -604,14 +604,14 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Task2, Assembly-CSharp
-        m_MethodName: Mchoice1
+      - m_Target: {fileID: 1014593434}
+        m_TargetAssemblyTypeName: Task1, Assembly-CSharp
+        m_MethodName: choice1
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 3
+          m_IntArgument: 4
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1068,6 +1068,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pecuarista
       objectReference: {fileID: 0}
+    - target: {fileID: 4866710661695663752, guid: b257397d17981fe449cab6463ff8c9af, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -1233,14 +1237,14 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Task2, Assembly-CSharp
-        m_MethodName: Mchoice1
+      - m_Target: {fileID: 1014593434}
+        m_TargetAssemblyTypeName: Task1, Assembly-CSharp
+        m_MethodName: choice1
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1524,14 +1528,14 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Task2, Assembly-CSharp
-        m_MethodName: Mchoice2
+      - m_Target: {fileID: 1014593434}
+        m_TargetAssemblyTypeName: Task1, Assembly-CSharp
+        m_MethodName: choice2
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2841,14 +2845,14 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Task2, Assembly-CSharp
-        m_MethodName: Mchoice1
+      - m_Target: {fileID: 1014593434}
+        m_TargetAssemblyTypeName: Task1, Assembly-CSharp
+        m_MethodName: choice1
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -3519,6 +3523,7 @@ RectTransform:
   m_LocalScale: {x: 2.3948421, y: 2.3294215, z: 1.4236537}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1761459109}
   - {fileID: 835976448}
   - {fileID: 317628307}
   - {fileID: 85397749}
@@ -3526,7 +3531,6 @@ RectTransform:
   - {fileID: 719827241}
   - {fileID: 1284957693}
   - {fileID: 1404381150}
-  - {fileID: 1761459109}
   m_Father: {fileID: 7159408467937887673}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -3692,6 +3696,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1013087602}
   m_CullTransparentMesh: 1
+--- !u!114 &1014593434 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1085943409903508343, guid: 12df232b9c0c2854eb2d2ad9a1878571, type: 3}
+  m_PrefabInstance: {fileID: 7159408467937887667}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d8f565f1074afc45a11b4f75490d9d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1049490994
 GameObject:
   m_ObjectHideFlags: 0
@@ -4710,14 +4725,14 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Task2, Assembly-CSharp
-        m_MethodName: Mchoice2
+      - m_Target: {fileID: 1014593434}
+        m_TargetAssemblyTypeName: Task1, Assembly-CSharp
+        m_MethodName: choice2
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 3
+          m_IntArgument: 4
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -5001,9 +5016,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Task2, Assembly-CSharp
-        m_MethodName: Mchoice3
+      - m_Target: {fileID: 1014593434}
+        m_TargetAssemblyTypeName: Task1, Assembly-CSharp
+        m_MethodName: choice3
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5138,9 +5153,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Task2, Assembly-CSharp
-        m_MethodName: Mchoice3
+      - m_Target: {fileID: 1014593434}
+        m_TargetAssemblyTypeName: Task1, Assembly-CSharp
+        m_MethodName: choice3
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5806,6 +5821,7 @@ RectTransform:
   m_LocalScale: {x: 2.3948421, y: 2.3294215, z: 1.4236537}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1934083206}
   - {fileID: 476399598}
   - {fileID: 2073605900}
   - {fileID: 1377805642}
@@ -5813,7 +5829,6 @@ RectTransform:
   - {fileID: 1973126821}
   - {fileID: 389065996}
   - {fileID: 535221611}
-  - {fileID: 1934083206}
   m_Father: {fileID: 7159408467937887672}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -5999,14 +6014,14 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Task2, Assembly-CSharp
-        m_MethodName: Mchoice1
+      - m_Target: {fileID: 1014593434}
+        m_TargetAssemblyTypeName: Task1, Assembly-CSharp
+        m_MethodName: choice1
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 3
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -6593,14 +6608,14 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Task2, Assembly-CSharp
-        m_MethodName: Mchoice2
+      - m_Target: {fileID: 1014593434}
+        m_TargetAssemblyTypeName: Task1, Assembly-CSharp
+        m_MethodName: choice2
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 3
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -6730,9 +6745,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Task2, Assembly-CSharp
-        m_MethodName: Mchoice3
+      - m_Target: {fileID: 1014593434}
+        m_TargetAssemblyTypeName: Task1, Assembly-CSharp
+        m_MethodName: choice3
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7256,14 +7271,14 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Task2, Assembly-CSharp
-        m_MethodName: Mchoice2
+      - m_Target: {fileID: 1014593434}
+        m_TargetAssemblyTypeName: Task1, Assembly-CSharp
+        m_MethodName: choice2
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -9360,7 +9375,7 @@ PrefabInstance:
       objectReference: {fileID: 816783423}
     - target: {fileID: 2210752865213685210, guid: 12df232b9c0c2854eb2d2ad9a1878571, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2245479823050299591, guid: 12df232b9c0c2854eb2d2ad9a1878571, type: 3}
       propertyPath: _btn1
